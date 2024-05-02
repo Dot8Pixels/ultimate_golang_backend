@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/Dot8Pixels/hello_world/calculator"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	fmt.Println(calculator.Add(1, 2))
 }
